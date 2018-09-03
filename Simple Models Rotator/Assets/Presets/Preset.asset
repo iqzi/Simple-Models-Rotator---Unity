@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: Preset
   m_EditorClassIdentifier: 
   rotating:
-    rightMouseButtonInput: 1
+    rightMouseButtonInput: 0
   zooming:
     zoomSpeed: 10
-    zoomMin: 30
-    zoomMax: 60
+    zoomMin: 35
+    zoomMax: 65

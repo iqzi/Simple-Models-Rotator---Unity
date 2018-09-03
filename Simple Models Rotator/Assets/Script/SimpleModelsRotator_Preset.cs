@@ -14,7 +14,9 @@ public class SimpleModelsRotator_Preset : ScriptableObject {
 	[System.Serializable]
     public class Zooming {
         public float zoomSpeed = 10;
-        public float zoomMin = 30;
-        public float zoomMax = 60;
+        [Range(20, 50)]
+        public float zoomMin = 35;
+        [Range(50, 80)]
+        public float zoomMax = 65;
     }
 }
